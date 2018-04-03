@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6677C7BAA1E7FA750F07BE5D /* Pods_GraphQL_Tutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4989F267256B18A9E77710A2 /* Pods_GraphQL_Tutorial.framework */; };
+		9387D3DC206BA2CA0001CA16 /* ReposListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9387D3DB206BA2CA0001CA16 /* ReposListCell.swift */; };
 		93B521FA2055649800F71B5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B521F92055649800F71B5A /* AppDelegate.swift */; };
-		93B521FC2055649800F71B5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B521FB2055649800F71B5A /* ViewController.swift */; };
 		93B521FF2055649800F71B5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B521FD2055649800F71B5A /* Main.storyboard */; };
 		93B522012055649800F71B5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93B522002055649800F71B5A /* Assets.xcassets */; };
 		93B522042055649800F71B5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B522022055649800F71B5A /* LaunchScreen.storyboard */; };
+		93B522192055CD7E00F71B5A /* ReposListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B522182055CD7E00F71B5A /* ReposListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4989F267256B18A9E77710A2 /* Pods_GraphQL_Tutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GraphQL_Tutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70D11182573B96837E3DCFD2 /* Pods-GraphQL-Tutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphQL-Tutorial.release.xcconfig"; path = "Pods/Target Support Files/Pods-GraphQL-Tutorial/Pods-GraphQL-Tutorial.release.xcconfig"; sourceTree = "<group>"; };
+		9387D3DB206BA2CA0001CA16 /* ReposListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposListCell.swift; sourceTree = "<group>"; };
 		93B521F62055649700F71B5A /* GraphQL-Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GraphQL-Tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93B521F92055649800F71B5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		93B521FB2055649800F71B5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		93B521FE2055649800F71B5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93B522002055649800F71B5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93B522032055649800F71B5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93B522052055649800F71B5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93B522182055CD7E00F71B5A /* ReposListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposListViewController.swift; sourceTree = "<group>"; };
+		B34E6192615868C6BAAE56C8 /* Pods-GraphQL-Tutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphQL-Tutorial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GraphQL-Tutorial/Pods-GraphQL-Tutorial.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6677C7BAA1E7FA750F07BE5D /* Pods_GraphQL_Tutorial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C9658B933784F4403764D00 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B34E6192615868C6BAAE56C8 /* Pods-GraphQL-Tutorial.debug.xcconfig */,
+				70D11182573B96837E3DCFD2 /* Pods-GraphQL-Tutorial.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8602F9E25CB812CD9722ECBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4989F267256B18A9E77710A2 /* Pods_GraphQL_Tutorial.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9387D3DA206BA2B20001CA16 /* ReposList */ = {
+			isa = PBXGroup;
+			children = (
+				93B522182055CD7E00F71B5A /* ReposListViewController.swift */,
+				9387D3DB206BA2CA0001CA16 /* ReposListCell.swift */,
+			);
+			path = ReposList;
+			sourceTree = "<group>";
+		};
 		93B521ED2055649700F71B5A = {
 			isa = PBXGroup;
 			children = (
-				93B521F82055649700F71B5A /* GraphQL-Tutorial */,
+				93B521F82055649700F71B5A /* Source */,
 				93B521F72055649700F71B5A /* Products */,
+				6C9658B933784F4403764D00 /* Pods */,
+				8602F9E25CB812CD9722ECBF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,17 +86,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		93B521F82055649700F71B5A /* GraphQL-Tutorial */ = {
+		93B521F82055649700F71B5A /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				9387D3DA206BA2B20001CA16 /* ReposList */,
 				93B521F92055649800F71B5A /* AppDelegate.swift */,
-				93B521FB2055649800F71B5A /* ViewController.swift */,
 				93B521FD2055649800F71B5A /* Main.storyboard */,
 				93B522002055649800F71B5A /* Assets.xcassets */,
 				93B522022055649800F71B5A /* LaunchScreen.storyboard */,
 				93B522052055649800F71B5A /* Info.plist */,
 			);
-			path = "GraphQL-Tutorial";
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +106,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93B522082055649800F71B5A /* Build configuration list for PBXNativeTarget "GraphQL-Tutorial" */;
 			buildPhases = (
+				F2A0B94BDC3FD2D5EAC7980A /* [CP] Check Pods Manifest.lock */,
 				93B521F22055649700F71B5A /* Sources */,
 				93B521F32055649700F71B5A /* Frameworks */,
 				93B521F42055649700F71B5A /* Resources */,
+				77B450C239507E06DB02451D /* [CP] Embed Pods Frameworks */,
+				2A6EEB1E3F42DD2B09588D94 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,12 +169,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2A6EEB1E3F42DD2B09588D94 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GraphQL-Tutorial/Pods-GraphQL-Tutorial-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77B450C239507E06DB02451D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GraphQL-Tutorial/Pods-GraphQL-Tutorial-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Apollo/Apollo.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Apollo.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GraphQL-Tutorial/Pods-GraphQL-Tutorial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2A0B94BDC3FD2D5EAC7980A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GraphQL-Tutorial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		93B521F22055649700F71B5A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93B521FC2055649800F71B5A /* ViewController.swift in Sources */,
+				93B522192055CD7E00F71B5A /* ReposListViewController.swift in Sources */,
+				9387D3DC206BA2CA0001CA16 /* ReposListCell.swift in Sources */,
 				93B521FA2055649800F71B5A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,14 +365,17 @@
 		};
 		93B522092055649800F71B5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B34E6192615868C6BAAE56C8 /* Pods-GraphQL-Tutorial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4ZG638Y4RJ;
-				INFOPLIST_FILE = "GraphQL-Tutorial/Info.plist";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tribuna.GraphQL-Tutorial";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -287,14 +383,17 @@
 		};
 		93B5220A2055649800F71B5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70D11182573B96837E3DCFD2 /* Pods-GraphQL-Tutorial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4ZG638Y4RJ;
-				INFOPLIST_FILE = "GraphQL-Tutorial/Info.plist";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tribuna.GraphQL-Tutorial";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
